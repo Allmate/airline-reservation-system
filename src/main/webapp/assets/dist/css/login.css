@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:  border-box;
+	font-family: Aerial;
+}
+
+
+.container{
+	width: 700px;
+	margin-top: 60px;
+}
+
+.card-header{
+	background-color: #d5f2d6;
+}
+
+button{
+	margin-top: 5px;
+}
+
+.error-message, .login-error-message{
+	color: red;
+	margin-bottom: 8px;
+}

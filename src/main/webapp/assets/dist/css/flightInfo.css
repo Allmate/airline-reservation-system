@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+table{
+	margin-top: 20px;
+}
+
+td, th{
+	text-align: center;
+}
+
+input{
+	width: 300px;
+	padding: 3px 5px 3px 10px;
+}
+
+.search{
+	width: 100%;
+}
+
+.search span{
+	font-weight: bold;
+	margin: 0 10px 0 10px;
+}
+
+.search input[type="date"]{
+	margin-right: 30px;
+}
+
+
+.container, .search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.error-message{
+	color: red;
+	margin-left: 8%;
+	margin-bottom: 10px;
+}
+
+.hide{
+	display: none;
+}
+
+form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+}
+
+select{
+	width: 300px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
